@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@media(max-width: 990px){
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10rem;
+    }
+}
+
+@media(max-width: 950px){
+    #section-main{
+        flex-direction: column;
+    }
+
+    .img-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-main img{
+        width: 450px;
+        height: 450px;
+    }
+}
+
+@media(max-width: 765px){
+    nav{
+        padding-left: 0.5rem;
+    }
+    .a-nav{
+        padding: 10px;
+        padding-left: 1rem;
+        padding-right: 1em;
+        font-size: 10px;
+    }
+}

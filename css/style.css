@@ -1,8 +1,14 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000000e0;;
 }
 
 header{
@@ -13,14 +19,21 @@ header{
     height: 6.25rem ;
 }
 
-#div-header{
-    margin-top: 0.5%;
-    margin-left: 4%;
+.a-header{
+    margin-top: 2%;
+    margin-left: 6%;
+    color: #fff;
+    text-decoration: none;
+}
+
+#div-header a{
+    text-decoration: none;
 }
 
 #div-header h2{
-    font-weight: 600;
-    font-size: 30px;
+    margin-top: rem;
+    font-weight: 400;
+    font-size: 25px;
     color: #fff;
 }
 
@@ -28,6 +41,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 2rem;
+    margin-top: 2%;
     margin-right: 7%;
 }
 
@@ -38,18 +52,89 @@ nav a{
     text-decoration: none;
 }
 
-.a-nav{
-    padding: 10px;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    border-radius: 20px;
-    border: 2px solid rgb(132, 14, 201);;
+nav a:hover{
+    border-bottom: 2px solid rgb(132, 14, 201)
 }
 
-body{
-    background-color: #000000e0;;
+.a-nav{
+    padding: 10px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 20px;
+    border: 2px solid rgb(132, 14, 201);
+}
+
+.a-nav:hover{
+    transition: 1s;
+    background-color: rgb(132, 14, 201);
+    color: #fff;
 }
 
 main{
+    padding-top: 5%;
     color: #fff;
+}
+
+#section-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.img-main{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+.img-main img{
+    width: 590px;
+    height: 483px;
+}
+
+#div-main{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-top: 5%;
+    margin-left: 5%
+}
+
+#div-main h1{
+    margin-bottom: -1.5rem;
+    font-weight: 600;
+    font-size: 3.0rem;
+}
+
+.h1-main-color{
+    color: rgb(132, 14, 201);
+}
+
+#div-main p{
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+
+#div-main a{
+    width: 60%;
+    padding: 10px;
+    color: #000000ad;
+    background-color: #fff;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+button{
+    width: 140px;
+    padding: 10px;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    background-color: rgb(132, 14, 201);
+    border: none;
+    color: #fff;
+    cursor: pointer;
 }
