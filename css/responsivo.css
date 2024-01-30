@@ -9,7 +9,13 @@
     }
 }
 
-@media(max-width: 950px){
+@media(max-width: 1110px){
+    .img-main{
+        margin-right: 2%;
+    }
+}
+
+@media(max-width: 995px){
     #section-main{
         flex-direction: column;
     }
