@@ -53,7 +53,7 @@ nav a{
 }
 
 nav a:hover{
-    border-bottom: 2px solid rgb(132, 14, 201)
+    border-bottom: 2px solid rgb(132, 14, 201);
 }
 
 .a-nav{
